@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		9E1D43552AAA90E700FBF149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D43542AAA90E700FBF149 /* AppDelegate.swift */; };
 		9E1D43572AAA90E700FBF149 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D43562AAA90E700FBF149 /* SceneDelegate.swift */; };
-		9E1D43592AAA90E700FBF149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D43582AAA90E700FBF149 /* ViewController.swift */; };
 		9E1D435C2AAA90E700FBF149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D435A2AAA90E700FBF149 /* Main.storyboard */; };
 		9E1D435E2AAA90E800FBF149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D435D2AAA90E800FBF149 /* Assets.xcassets */; };
 		9E1D43612AAA90E800FBF149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D435F2AAA90E800FBF149 /* LaunchScreen.storyboard */; };
+		9E61AD992AB34D53005EFCE0 /* CoffeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E61AD982AB34D53005EFCE0 /* CoffeeDetailViewController.swift */; };
+		9E6702EB2AB4CC760061EF61 /* CoffeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6702EA2AB4CC760061EF61 /* CoffeeService.swift */; };
+		9E7AE0532AAB4F5F001780ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7AE0522AAB4F5F001780ED /* MainViewController.swift */; };
+		9E7AE0562AAB59A4001780ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7AE0552AAB59A4001780ED /* Extensions.swift */; };
+		9E7AE0592AAB6D45001780ED /* MenuFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7AE0582AAB6D45001780ED /* MenuFilterView.swift */; };
+		9E7AE05B2AAB7610001780ED /* MenuFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7AE05A2AAB7610001780ED /* MenuFilterCell.swift */; };
+		9E7AE05E2AAB9349001780ED /* MenuFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7AE05D2AAB9349001780ED /* MenuFilterViewModel.swift */; };
+		9E7AE0612AABA401001780ED /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7AE0602AABA401001780ED /* Coffee.swift */; };
+		9E7AE0632AABB417001780ED /* CoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7AE0622AABB417001780ED /* CoffeeCell.swift */; };
+		D70286E3F115E1BF7D9BE09E /* Pods_TeosCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81088D1C6DBBDFC3501A6BAA /* Pods_TeosCoffee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81088D1C6DBBDFC3501A6BAA /* Pods_TeosCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeosCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DED290727DC6ABEC262608 /* Pods-TeosCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeosCoffee.release.xcconfig"; path = "Target Support Files/Pods-TeosCoffee/Pods-TeosCoffee.release.xcconfig"; sourceTree = "<group>"; };
 		9E1D43512AAA90E700FBF149 /* TeosCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeosCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1D43542AAA90E700FBF149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E1D43562AAA90E700FBF149 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E1D43582AAA90E700FBF149 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E1D435B2AAA90E700FBF149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E1D435D2AAA90E800FBF149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E1D43602AAA90E800FBF149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E1D43622AAA90E800FBF149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E61AD982AB34D53005EFCE0 /* CoffeeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetailViewController.swift; sourceTree = "<group>"; };
+		9E6702EA2AB4CC760061EF61 /* CoffeeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeService.swift; sourceTree = "<group>"; };
+		9E7AE0522AAB4F5F001780ED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9E7AE0552AAB59A4001780ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9E7AE0582AAB6D45001780ED /* MenuFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFilterView.swift; sourceTree = "<group>"; };
+		9E7AE05A2AAB7610001780ED /* MenuFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFilterCell.swift; sourceTree = "<group>"; };
+		9E7AE05D2AAB9349001780ED /* MenuFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFilterViewModel.swift; sourceTree = "<group>"; };
+		9E7AE0602AABA401001780ED /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		9E7AE0622AABB417001780ED /* CoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCell.swift; sourceTree = "<group>"; };
+		A22EDD12CBC8BF33F9B5240F /* Pods-TeosCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeosCoffee.debug.xcconfig"; path = "Target Support Files/Pods-TeosCoffee/Pods-TeosCoffee.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70286E3F115E1BF7D9BE09E /* Pods_TeosCoffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				9E1D43532AAA90E700FBF149 /* TeosCoffee */,
 				9E1D43522AAA90E700FBF149 /* Products */,
+				B30C49A7D2BAC3D54C318BC2 /* Pods */,
+				A4B1D9744D585628333CB57A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,88 @@
 		9E1D43532AAA90E700FBF149 /* TeosCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				9E6702E92AB4CC6C0061EF61 /* Data */,
+				9E7AE05F2AABA3F1001780ED /* Model */,
+				9E7AE05C2AAB933B001780ED /* ViewModel */,
+				9E7AE0572AAB6D33001780ED /* View */,
+				9E7AE0542AAB5999001780ED /* Utils */,
+				9E1D43682AAA93DB00FBF149 /* Controller */,
 				9E1D43542AAA90E700FBF149 /* AppDelegate.swift */,
 				9E1D43562AAA90E700FBF149 /* SceneDelegate.swift */,
-				9E1D43582AAA90E700FBF149 /* ViewController.swift */,
 				9E1D435A2AAA90E700FBF149 /* Main.storyboard */,
 				9E1D435D2AAA90E800FBF149 /* Assets.xcassets */,
 				9E1D435F2AAA90E800FBF149 /* LaunchScreen.storyboard */,
 				9E1D43622AAA90E800FBF149 /* Info.plist */,
 			);
 			path = TeosCoffee;
+			sourceTree = "<group>";
+		};
+		9E1D43682AAA93DB00FBF149 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E7AE0522AAB4F5F001780ED /* MainViewController.swift */,
+				9E61AD982AB34D53005EFCE0 /* CoffeeDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E6702E92AB4CC6C0061EF61 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9E6702EA2AB4CC760061EF61 /* CoffeeService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9E7AE0542AAB5999001780ED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9E7AE0552AAB59A4001780ED /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9E7AE0572AAB6D33001780ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E7AE0582AAB6D45001780ED /* MenuFilterView.swift */,
+				9E7AE05A2AAB7610001780ED /* MenuFilterCell.swift */,
+				9E7AE0622AABB417001780ED /* CoffeeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E7AE05C2AAB933B001780ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E7AE05D2AAB9349001780ED /* MenuFilterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9E7AE05F2AABA3F1001780ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E7AE0602AABA401001780ED /* Coffee.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4B1D9744D585628333CB57A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81088D1C6DBBDFC3501A6BAA /* Pods_TeosCoffee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B30C49A7D2BAC3D54C318BC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A22EDD12CBC8BF33F9B5240F /* Pods-TeosCoffee.debug.xcconfig */,
+				96DED290727DC6ABEC262608 /* Pods-TeosCoffee.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E1D43652AAA90E800FBF149 /* Build configuration list for PBXNativeTarget "TeosCoffee" */;
 			buildPhases = (
+				51607D35209A9812FE03A722 /* [CP] Check Pods Manifest.lock */,
 				9E1D434D2AAA90E700FBF149 /* Sources */,
 				9E1D434E2AAA90E700FBF149 /* Frameworks */,
 				9E1D434F2AAA90E700FBF149 /* Resources */,
+				4C5F19BD723B49B0C8CD54D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +231,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C5F19BD723B49B0C8CD54D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeosCoffee/Pods-TeosCoffee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeosCoffee/Pods-TeosCoffee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeosCoffee/Pods-TeosCoffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51607D35209A9812FE03A722 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeosCoffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E1D434D2AAA90E700FBF149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E1D43592AAA90E700FBF149 /* ViewController.swift in Sources */,
+				9E6702EB2AB4CC760061EF61 /* CoffeeService.swift in Sources */,
+				9E7AE0592AAB6D45001780ED /* MenuFilterView.swift in Sources */,
+				9E7AE05E2AAB9349001780ED /* MenuFilterViewModel.swift in Sources */,
+				9E7AE0532AAB4F5F001780ED /* MainViewController.swift in Sources */,
+				9E7AE05B2AAB7610001780ED /* MenuFilterCell.swift in Sources */,
 				9E1D43552AAA90E700FBF149 /* AppDelegate.swift in Sources */,
+				9E7AE0632AABB417001780ED /* CoffeeCell.swift in Sources */,
 				9E1D43572AAA90E700FBF149 /* SceneDelegate.swift in Sources */,
+				9E7AE0562AAB59A4001780ED /* Extensions.swift in Sources */,
+				9E61AD992AB34D53005EFCE0 /* CoffeeDetailViewController.swift in Sources */,
+				9E7AE0612AABA401001780ED /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +430,7 @@
 		};
 		9E1D43662AAA90E800FBF149 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22EDD12CBC8BF33F9B5240F /* Pods-TeosCoffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +439,14 @@
 				DEVELOPMENT_TEAM = R2D234X96B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeosCoffee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TeosCoffee;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +462,7 @@
 		};
 		9E1D43672AAA90E800FBF149 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96DED290727DC6ABEC262608 /* Pods-TeosCoffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +471,14 @@
 				DEVELOPMENT_TEAM = R2D234X96B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeosCoffee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TeosCoffee;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

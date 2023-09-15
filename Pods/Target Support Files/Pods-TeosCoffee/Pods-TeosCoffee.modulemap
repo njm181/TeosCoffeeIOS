@@ -1,0 +1,6 @@
+framework module Pods_TeosCoffee {
+  umbrella header "Pods-TeosCoffee-umbrella.h"
+
+  export *
+  module * { export * }
+}
